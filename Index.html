@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Irish Valerie D. Solon's Autobiography</title>
+  <style>
+    :root{
+      --bg1:#fdeefc;
+      --bg2:#f3f0ff;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --accent:#e6b5ff;
+      --accent2:#f7c5e0;}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:'Cursive',sans-serif;background:linear-gradient(180deg,var(--bg1),var(--bg2));color:#2d1b4e}
+    .container{max-width:1000px;margin:28px auto;padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .avatar{width:68px;height:68px;border-radius:50%;object-fit:cover;border:3px solid rgba(0,0,0,0.06)}
+    h1{font-size:22px;margin:0;color:#4b1f5f}
+    p.lead{margin:8px 0 0;color:var(--muted)}
+    
+    .hero{margin-top:26px;background:linear-gradient(90deg,rgba(230,181,255,0.2),rgba(247,197,224,0.2));padding:22px;border-radius:14px;display:flex;gap:18px;align-items:center;box-shadow:0 4px 12px rgba(0,0,0,0.05)}
+    .hero .text{flex:1}
+    .hero h2{margin:0;font-size:28px;color:#4b1f5f}
+    .hero p{margin:10px 0 0;color:var(--muted)}
+
+    .grid{display:grid;grid-template-columns:2fr 1fr;gap:18px;margin-top:18px}
+    .card{background:var(--card);padding:16px;border-radius:16px;box-shadow:0 6px 18px rgba(75,31,95,0.05)}
+    .section-title{font-weight:600;margin-bottom:10px;color:#4b1f5f}
+
+    .timeline{display:flex;flex-direction:column;gap:12px}
+    .titem{display:flex;gap:12px}
+    .tyear{width:72px;color:#b78ad9;font-weight:600}
+
+   .skills {list-style-type: disc;padding-left: 25px; color: #9d7bad}
+   .skill {margin-bottom: 6px;}
+
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+    .gallery img{width:100%;height:120px;object-fit:cover;border-radius:12px;box-shadow:0 3px 8px rgba(75,31,95,0.05)}
+
+    form input, form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e6d7f9;margin-top:8px}
+    form button{margin-top:10px;padding:10px 14px;border-radius:10px;border:none;background:var(--accent);color:#4b1f5f;font-weight:600}
+
+    footer{text-align:center;color:var(--muted);margin-top:18px;font-size:13px}
+
+    @media (max-width:880px){.grid{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}.hero{flex-direction:column;align-items:flex-start}}
+  
+    .lightbox {position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(75, 31, 95, 0.7);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  cursor: zoom-out;}
+
+.lightbox.active {display: flex;}
+
+.lightbox img 
+{max-width: 90%;
+  max-height: 80%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgb(34, 6, 70);
+  animation: fadeIn 0.3s ease;}
+
+@keyframes fadeIn {from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }}
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <img class="avatar" src="BNHS.jpg" alt="Profile photo" />
+        <div>
+          <h1>Solon, Irish Valerie D.</h1>
+          <p class="lead">Student • Dreamer • Future IT Professional</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="text">
+        <h2>Hi, I'm Irish Valerie D. Solon.</h2>
+        <p>I'm from Corinthian Home, Basak, LLC.</p>
+         <p>Dreaming to be an IT Professional to build creative tech solutions and inspire others.</p>
+        <p style="margin-top:10px;color:var(--muted)"><strong> • Location:</strong> Corinthian Homes, Masulog, Basak, Lapu-Lapu City, Philippines.</p>
+          <p style="margin-top:10px;color:var(--muted)"><strong> • Major:</strong> Computer Technology.</p>
+      </div>
+      <div style="min-width:160px;text-align:center">
+        <img src="BNHS.jpg" alt="profile" style="width:120px;height:120px;border-radius:16px;object-fit:cover;border:6px solid white;box-shadow:0 6px 20px rgba(0,0,0,0.06)" />
+      </div>
+    </section>
+
+    <div class="grid">
+      <main>
+       <section class="card">
+  <div class="section-title">About Me</div>
+
+  <p>As a student at Lapu-Lapu City College who's taking up
+  <em>Bachelor of Industrial Technology — Computer Technology</em>. I grew up curious about how things work,
+  especially technology, which is what led me to study IT and web development.</p>
+
+  <p>One of the most rewarding parts of my IIT journey has been learning <strong>HTML</strong>. Through hands-on
+  practice I learned how simple tags and structure form the backbone of every website — headings, paragraphs,
+  lists, links, images, and semantic elements. Building my own pages helped me understand how content should be
+  organized for both users and accessibility.</p>
+
+  <p>I know learning isn’t always easy — I’ve faced failures, stress, and self-doubt — but those challenges made me
+  more resilient. Today I’m driven by the goal of becoming an IT professional who builds useful, creative systems.
+  Learning HTML showed me I can create and control the web — and I’m excited to keep learning CSS, JavaScript, and
+  more.</p>
+</section>
+
+
+        <section class="card" style="margin-top:14px">
+          <div class="section-title">Life Timeline</div>
+          <div class="timeline">
+            <div class="titem"><div class="tyear">2007</div><div><strong>Born</strong><div style="color:var(--muted);font-size:14px">Born in Mandaue.</div></div></div>
+                       <div class="titem"><div class="tyear">2025</div><div><strong>Work Immersion</strong><div style="color:var(--muted);font-size:14px">Work immersion at Lapu-Lapu City College.</div></div></div>
+            <div class="titem"><div class="tyear">2025</div><div><strong>High School Grad</strong><div style="color:var(--muted);font-size:14px">Graduated from Benthel Asia School of Technology.</div></div></div>
+             <div class="titem"><div class="tyear">Present</div><div><strong>College: BIT CompTech</strong><div style="color:var(--muted);font-size:14px">Started CompTech at Lapu-Lapu City College.</div></div></div>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:14px">
+          <div class="section-title">Gallery</div>
+          <div class="gallery">
+            <img src="photo1.jpg" alt="photo1" />
+            <img src="photo2.jpg" alt="photo2" />
+            <img src="photo3.jpg" alt="photo3" />
+            <img src="photo4.jpg" alt="photo4" />
+            <img src="photo5.jpg" alt="photo5" />
+            <img src="photo6.jpg" alt="photo6" />
+          </div>
+        </section>
+      </main>
+
+      <aside>
+  <div class="card">
+    <div class="section-title">Quick Info</div>
+    <p style="margin:6px 0;color:var(--muted)"><strong>Location:</strong> Corinthian Homes, Masulog, Basak, Lapu-Lapu City, Philippines.</p>
+    <p style="margin:6px 0;color:var(--muted)"><strong>School:</strong> Lapu-Lapu City College</p>
+    <p style="margin:6px 0;color:var(--muted)"><strong>Interests:</strong> reading, badminton, writing</p>
+
+   
+    <div style="margin-top:12px">
+      <div class="section-title">Skills</div>
+      <ul class="skills">
+        <li class="skill">HTML</li>
+        <li class="skill">CSS</li>
+        <li class="skill">Design</li>
+        <li class="skill">Drawing</li>
+      </ul>
+    </div>
+
+    <div style="margin-top:12px">
+      <div class="section-title">Awards</div>
+      <p style="color:var(--muted);font-size:14px">Badminton awards, literary writing recognitions, district-level achievements.</p>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+    <img src="" alt="expanded" />
+  </div>
+  
+  <script>
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = lightbox.querySelector('img');
+    document.querySelectorAll('.gallery img').forEach(img => {
+      img.addEventListener('click', () => {
+        lightbox.classList.add('active');
+        lightboxImg.src = img.src;});});
+    lightbox.addEventListener('click', () => {
+      lightbox.classList.remove('active');});
+  </script>
+
+</body>
+</html>
